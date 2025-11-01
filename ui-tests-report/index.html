@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Test Results - MusicPlayer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .browser-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .browser-section h2 {
+            color: #667eea;
+            margin-top: 0;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .info {
+            background: #d1ecf1;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #0c5460;
+        }
+        .timestamp {
+            color: #666;
+            font-size: 0.9em;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 MusicPlayer UI Test Results</h1>
+        
+        <div class="info">
+            <strong>Test Run Information:</strong><br>
+            Date: $(date)<br>
+            Commit: d383bdd80a67462248a2c9805a60b06c0e5fca6b<br>
+            Branch: main
+        </div>
+        
+        <div class="browser-section">
+            <h2>🌐 Chrome Browser Tests</h2>
+            <video controls>
+                <source src="../test-video-chrome/test-chrome.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <div class="browser-section">
+            <h2>🦊 Firefox Browser Tests</h2>
+            <video controls>
+                <source src="../test-video-firefox/test-firefox.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <div class="timestamp">
+            Generated: $(date)
+        </div>
+    </div>
+</body>
+</html>
