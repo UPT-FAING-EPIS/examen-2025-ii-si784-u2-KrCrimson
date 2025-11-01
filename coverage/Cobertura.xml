@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="1" branch-rate="1" lines-covered="20" lines-valid="20" branches-covered="2" branches-valid="2" complexity="12" version="0" timestamp="1761964017">
+<coverage line-rate="1" branch-rate="1" lines-covered="20" lines-valid="20" branches-covered="2" branches-valid="2" complexity="12" version="0" timestamp="1761964302">
   <sources>
     <source>/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/src/MusicPlayer/</source>
   </sources>
