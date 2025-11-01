@@ -1,0 +1,107 @@
+1
+
+  public interface IMusicCommand
+    {
+        string Execute();
+    }
+    //Receiver - MusicPlayer
+    public class MusicPlayer
+    {
+        public string Play()
+        {
+            return "Playing the song.";
+        }
+        public string Pause()
+        {
+            return "Pausing the song.";
+        }
+        public string Skip()
+        {
+            return "Skipping to the next song.";
+        }
+    }
+    //Concrete Commands
+    public class PlayCommand : IMusicCommand
+    {
+        private MusicPlayer _player;
+        public PlayCommand(MusicPlayer player)
+        {
+            _player = player;
+        }
+        public string Execute()
+        {
+            return _player.Play();
+        }
+    }
+    public class PauseCommand : IMusicCommand
+    {
+        private MusicPlayer _player;
+        public PauseCommand(MusicPlayer player)
+        {
+            _player = player;
+        }
+        public string Execute()
+        {
+            return _player.Pause();
+        }
+    }
+    public class SkipCommand : IMusicCommand
+    {
+        private MusicPlayer _player;
+        public SkipCommand(MusicPlayer player)
+        {
+            _player = player;
+        }
+        public string Execute()
+        {
+            return _player.Skip();
+        }
+    }
+    //Invoker - MusicRemote
+    public class MusicRemote
+    {
+        private IMusicCommand _command;
+        public void SetCommand(IMusicCommand command)
+        {
+            _command = command;
+        }
+        public string PressButton()
+        {
+            return _command.Execute();
+        }
+    }
+Dada la estructura de clases anterior.
+
+Crear la aplicación
+Crear las pruebas unitarias minimas para completar al menos el 80% de cobertura
+Crear las pruebas en formato BDD
+Crear en Github la automatizacion que permita realizar la ejecucion de las pruebas unitarias y BDD y crear los respectivos reportes y publicarlos en Github Pages
+
+
+
+
+
+2
+
+
+
+Como estudiante de la UPT
+
+Quiero encontrar tesis de tecnologia en el Repositorio de la UPT
+
+Para investigar sobre tecnologias recientes y tener referencias
+
+CA1
+
+Dado que como estudiante tengo acceso al repositorio de trabajos academicos de la UPT https://repositorio.upt.edu.pe/
+
+Cuando realizo una busqueda de tecnologia (web / base de datos / mobil / inteligencia de negocios / inteligencia artificial)
+
+Entonces espero tener uno o muchos resultados
+
+Dado el requerimiento indicado
+
+Construir la prueba de interfaz de usuario para cumplir el requerimiento
+Construir una automatización en Github Actions que realice la ejecucion de pruebas en al menos dos navegadores
+La automatización genere un video.
+Texto de la respuesta Pregunta 2

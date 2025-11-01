@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Music Player Control</h1>
+    <p>Use the Command Pattern to control your music player</p>
+
+    @if (ViewBag.Result != null)
+    {
+        <div class="alert alert-info" id="result" role="alert">
+            @ViewBag.Result
+        </div>
+    }
+
+    <div class="music-controls">
+        <form asp-controller="Home" asp-action="ExecuteCommand" method="post">
+            <input type="hidden" name="command" value="play" />
+            <button type="submit" class="btn btn-success btn-lg" id="playButton">
+                ▶ Play
+            </button>
+        </form>
+
+        <form asp-controller="Home" asp-action="ExecuteCommand" method="post">
+            <input type="hidden" name="command" value="pause" />
+            <button type="submit" class="btn btn-warning btn-lg" id="pauseButton">
+                ⏸ Pause
+            </button>
+        </form>
+
+        <form asp-controller="Home" asp-action="ExecuteCommand" method="post">
+            <input type="hidden" name="command" value="skip" />
+            <button type="submit" class="btn btn-primary btn-lg" id="skipButton">
+                ⏭ Skip
+            </button>
+        </form>
+    </div>
+</div>

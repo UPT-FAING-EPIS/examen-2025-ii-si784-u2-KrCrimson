@@ -1,0 +1,111 @@
+name: Unit Tests and BDD Tests with Coverage
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+        
+    - name: Restore dependencies
+      run: dotnet restore MusicPlayer.sln
+      
+    - name: Build solution
+      run: dotnet build MusicPlayer.sln --configuration Release --no-restore
+      
+    - name: Run Unit Tests with Coverage
+      run: |
+        dotnet test tests/MusicPlayer.Tests/MusicPlayer.Tests.csproj \
+          --configuration Release \
+          --no-build \
+          --verbosity normal \
+          --collect:"XPlat Code Coverage" \
+          --results-directory ./coverage/unit
+      
+    - name: Run BDD Tests
+      run: |
+        dotnet test tests/MusicPlayer.BDD/MusicPlayer.BDD.csproj \
+          --configuration Release \
+          --no-build \
+          --verbosity normal \
+          --collect:"XPlat Code Coverage" \
+          --results-directory ./coverage/bdd
+      
+    - name: Install ReportGenerator
+      run: dotnet tool install -g dotnet-reportgenerator-globaltool
+      
+    - name: Generate Coverage Report
+      run: |
+        reportgenerator \
+          -reports:"./coverage/**/coverage.cobertura.xml" \
+          -targetdir:"./coverage/report" \
+          -reporttypes:"Html;Badges;Cobertura" \
+          -title:"MusicPlayer Test Coverage"
+      
+    - name: Generate Coverage Summary
+      run: |
+        reportgenerator \
+          -reports:"./coverage/**/coverage.cobertura.xml" \
+          -targetdir:"./coverage/summary" \
+          -reporttypes:"MarkdownSummaryGithub" \
+          -title:"MusicPlayer Test Coverage"
+      
+    - name: Add Coverage Summary to PR
+      if: github.event_name == 'pull_request'
+      run: |
+        if [ -f ./coverage/summary/SummaryGithub.md ]; then
+          cat ./coverage/summary/SummaryGithub.md >> $GITHUB_STEP_SUMMARY
+        fi
+      
+    - name: Upload Coverage Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: coverage-report
+        path: ./coverage/report
+        
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-results
+        path: |
+          **/TestResults/**
+          ./coverage/**
+    
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./coverage/report
+        destination_dir: coverage
+        
+    - name: Comment Coverage on PR
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          const summaryPath = './coverage/summary/SummaryGithub.md';
+          if (fs.existsSync(summaryPath)) {
+            const summary = fs.readFileSync(summaryPath, 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## Test Coverage Report\n\n${summary}\n\n[View Full Report](https://${context.repo.owner}.github.io/${context.repo.repo}/coverage/)`
+            });
+          }
