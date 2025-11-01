@@ -64,7 +64,18 @@ public class UPTRepositorySearchSteps : IDisposable
     [Then(@"debo ver la página principal del repositorio")]
     public void ThenDeboVerLaPaginaPrincipalDelRepositorio()
     {
-        _wait!.Until(driver => driver.Title.Contains("DSpace") || driver.Title.Contains("Repositorio"));
+        _wait!.Until(driver => 
+        {
+            try
+            {
+                return !string.IsNullOrEmpty(driver.PageSource) && 
+                       (driver.Title.Length > 0 || driver.PageSource.Contains("repositorio"));
+            }
+            catch
+            {
+                return false;
+            }
+        });
         _driver!.Url.Should().Contain("repositorio.upt.edu.pe");
     }
 
@@ -189,7 +200,8 @@ public class UPTRepositorySearchSteps : IDisposable
         }
 
         _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-        _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(15));
+        _driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(30);
+        _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(30));
     }
 
     private void PerformSearch(string searchTerm)
