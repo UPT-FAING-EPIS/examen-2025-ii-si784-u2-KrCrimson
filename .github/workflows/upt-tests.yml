@@ -1,0 +1,254 @@
+name: UPT Repository Tests with Video Recording
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  upt-ui-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser: [chrome, firefox]
+      fail-fast: false
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+        
+    - name: Restore UPT.UITests dependencies
+      run: dotnet restore tests/UPT.UITests/UPT.UITests.csproj
+      
+    - name: Build UPT.UITests
+      run: dotnet build tests/UPT.UITests/UPT.UITests.csproj --configuration Release --no-restore
+      
+    - name: Setup Chrome
+      if: matrix.browser == 'chrome'
+      uses: browser-actions/setup-chrome@v1
+      with:
+        chrome-version: stable
+        
+    - name: Setup Firefox
+      if: matrix.browser == 'firefox'
+      uses: browser-actions/setup-firefox@v1
+      with:
+        firefox-version: latest
+        
+    - name: Install ffmpeg for video recording
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg xvfb
+        
+    - name: Start Xvfb
+      run: |
+        Xvfb :99 -screen 0 1920x1080x24 &
+        echo "DISPLAY=:99" >> $GITHUB_ENV
+        
+    - name: Start video recording
+      run: |
+        mkdir -p ./videos
+        ffmpeg -f x11grab -video_size 1920x1080 -i :99 -codec:v libx264 -r 12 ./videos/upt-test-${{ matrix.browser }}.mp4 &
+        echo $! > ffmpeg.pid
+        
+    - name: Run UI Tests
+      run: |
+        dotnet test tests/UPT.UITests/UPT.UITests.csproj \
+          --configuration Release \
+          --no-build \
+          --verbosity normal \
+          --logger "trx;LogFileName=upt-test-results-${{ matrix.browser }}.trx"
+      env:
+        BROWSER: ${{ matrix.browser }}
+        DISPLAY: :99
+        
+    - name: Stop video recording
+      if: always()
+      run: |
+        if [ -f ffmpeg.pid ]; then
+          kill $(cat ffmpeg.pid) || true
+          sleep 2
+        fi
+        
+    - name: Upload test video
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: upt-test-video-${{ matrix.browser }}
+        path: ./videos/upt-test-${{ matrix.browser }}.mp4
+        retention-days: 30
+        
+    - name: Upload UI test results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: upt-ui-test-results-${{ matrix.browser }}
+        path: |
+          **/TestResults/*.trx
+        retention-days: 30
+
+  upt-bdd-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser: [chrome, firefox]
+      fail-fast: false
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+        
+    - name: Restore UPT.BDD dependencies
+      run: dotnet restore tests/UPT.BDD/UPT.BDD.csproj
+      
+    - name: Build UPT.BDD
+      run: dotnet build tests/UPT.BDD/UPT.BDD.csproj --configuration Release --no-restore
+      
+    - name: Setup Chrome
+      if: matrix.browser == 'chrome'
+      uses: browser-actions/setup-chrome@v1
+      with:
+        chrome-version: stable
+        
+    - name: Setup Firefox
+      if: matrix.browser == 'firefox'
+      uses: browser-actions/setup-firefox@v1
+      with:
+        firefox-version: latest
+        
+    - name: Install ffmpeg for video recording
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg xvfb
+        
+    - name: Start Xvfb
+      run: |
+        Xvfb :99 -screen 0 1920x1080x24 &
+        echo "DISPLAY=:99" >> $GITHUB_ENV
+        
+    - name: Start video recording
+      run: |
+        mkdir -p ./videos
+        ffmpeg -f x11grab -video_size 1920x1080 -i :99 -codec:v libx264 -r 12 ./videos/upt-bdd-${{ matrix.browser }}.mp4 &
+        echo $! > ffmpeg.pid
+        
+    - name: Run BDD Tests
+      run: |
+        dotnet test tests/UPT.BDD/UPT.BDD.csproj \
+          --configuration Release \
+          --no-build \
+          --verbosity normal \
+          --logger "trx;LogFileName=upt-bdd-results-${{ matrix.browser }}.trx"
+      env:
+        BROWSER: ${{ matrix.browser }}
+        DISPLAY: :99
+        
+    - name: Stop video recording
+      if: always()
+      run: |
+        if [ -f ffmpeg.pid ]; then
+          kill $(cat ffmpeg.pid) || true
+          sleep 2
+        fi
+        
+    - name: Upload test video
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: upt-bdd-video-${{ matrix.browser }}
+        path: ./videos/upt-bdd-${{ matrix.browser }}.mp4
+        retention-days: 30
+        
+    - name: Upload BDD test results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: upt-bdd-test-results-${{ matrix.browser }}
+        path: |
+          **/TestResults/*.trx
+        retention-days: 30
+
+  publish-videos:
+    runs-on: ubuntu-latest
+    needs: [upt-ui-tests, upt-bdd-tests]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Download all test videos
+      uses: actions/download-artifact@v4
+      with:
+        path: ./all-videos
+        pattern: upt-*-video-*
+        
+    - name: Organize videos for GitHub Pages
+      run: |
+        mkdir -p ./gh-pages-videos
+        find ./all-videos -name "*.mp4" -exec cp {} ./gh-pages-videos/ \;
+        ls -lh ./gh-pages-videos/
+        
+    - name: Create video index page
+      run: |
+        cd ./gh-pages-videos
+        cat > index.html << 'EOF'
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>UPT Repository Test Videos</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+                h1 { color: #333; }
+                .video-container { margin: 20px 0; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+                video { width: 100%; max-width: 800px; border-radius: 4px; }
+                .video-title { font-size: 18px; font-weight: bold; margin-bottom: 10px; color: #0066cc; }
+                .timestamp { color: #666; font-size: 14px; margin-top: 10px; }
+            </style>
+        </head>
+        <body>
+            <h1>🎥 UPT Repository Test Videos</h1>
+            <p>Videos de las pruebas automatizadas del Repositorio UPT - Generados: $(date)</p>
+        EOF
+        
+        for video in *.mp4; do
+          if [ -f "$video" ]; then
+            cat >> index.html << EOF
+            <div class="video-container">
+                <div class="video-title">📹 $video</div>
+                <video controls>
+                    <source src="$video" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+                <div class="timestamp">Archivo: $video</div>
+            </div>
+        EOF
+          fi
+        done
+        
+        cat >> index.html << 'EOF'
+        </body>
+        </html>
+        EOF
+        
+    - name: Deploy videos to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./gh-pages-videos
+        destination_dir: upt-test-videos
+        keep_files: false

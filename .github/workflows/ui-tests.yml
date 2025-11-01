@@ -24,10 +24,10 @@ jobs:
         dotnet-version: '8.0.x'
         
     - name: Restore dependencies
-      run: dotnet restore MusicPlayer.sln
+      run: dotnet restore MusicPlayer/MusicPlayer.sln
       
     - name: Build solution
-      run: dotnet build MusicPlayer.sln --configuration Release --no-restore
+      run: dotnet build MusicPlayer/MusicPlayer.sln --configuration Release --no-restore
       
     - name: Setup Chrome
       if: matrix.browser == 'chrome'
@@ -53,7 +53,7 @@ jobs:
         
     - name: Start Web Application
       run: |
-        cd src/MusicPlayer.Web
+        cd MusicPlayer/src/MusicPlayer.Web
         dotnet run --configuration Release --no-build &
         echo $! > webapp.pid
         sleep 10
@@ -82,7 +82,7 @@ jobs:
         
     - name: Run UI Tests
       run: |
-        dotnet test tests/MusicPlayer.UITests/MusicPlayer.UITests.csproj \
+        dotnet test MusicPlayer/tests/MusicPlayer.UITests/MusicPlayer.UITests.csproj \
           --configuration Release \
           --no-build \
           --verbosity normal \

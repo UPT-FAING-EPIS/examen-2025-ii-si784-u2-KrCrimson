@@ -21,14 +21,14 @@ jobs:
         dotnet-version: '8.0.x'
         
     - name: Restore dependencies
-      run: dotnet restore MusicPlayer.sln
+      run: dotnet restore MusicPlayer/MusicPlayer.sln
       
     - name: Build solution
-      run: dotnet build MusicPlayer.sln --configuration Release --no-restore
+      run: dotnet build MusicPlayer/MusicPlayer.sln --configuration Release --no-restore
       
     - name: Run Unit Tests with Coverage
       run: |
-        dotnet test tests/MusicPlayer.Tests/MusicPlayer.Tests.csproj \
+        dotnet test MusicPlayer/tests/MusicPlayer.Tests/MusicPlayer.Tests.csproj \
           --configuration Release \
           --no-build \
           --verbosity normal \
@@ -37,7 +37,7 @@ jobs:
       
     - name: Run BDD Tests
       run: |
-        dotnet test tests/MusicPlayer.BDD/MusicPlayer.BDD.csproj \
+        dotnet test MusicPlayer/tests/MusicPlayer.BDD/MusicPlayer.BDD.csproj \
           --configuration Release \
           --no-build \
           --verbosity normal \
