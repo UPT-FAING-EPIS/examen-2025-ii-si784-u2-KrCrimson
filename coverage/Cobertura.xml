@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1" branch-rate="1" lines-covered="20" lines-valid="20" branches-covered="2" branches-valid="2" complexity="12" version="0" timestamp="1761961938">
+  <sources>
+    <source>/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/src/MusicPlayer/</source>
+  </sources>
+  <packages>
+    <package name="MusicPlayer" line-rate="1" branch-rate="1" complexity="12">
+      <classes>
+        <class name="MusicPlayer.MusicPlayer" filename="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/src/MusicPlayer/MusicPlayer.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Play" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="Pause" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="Skip" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="4" branch="false" />
+            <line number="13" hits="4" branch="false" />
+            <line number="18" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="MusicPlayer.MusicRemote" filename="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/src/MusicPlayer/MusicRemote.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="SetCommand" signature="(MusicPlayer.IMusicCommand)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="6" branch="false" />
+                <line number="11" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="PressButton" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="15" hits="6" branch="true" condition-coverage="100% (2/2)" />
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="6" branch="false" />
+            <line number="11" hits="6" branch="false" />
+            <line number="15" hits="6" branch="true" condition-coverage="100% (2/2)" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="MusicPlayer.PauseCommand" filename="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/src/MusicPlayer/PauseCommand.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(MusicPlayer.MusicPlayer)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="4" branch="false" />
+                <line number="10" hits="4" branch="false" />
+                <line number="11" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="4" branch="false" />
+            <line number="10" hits="4" branch="false" />
+            <line number="11" hits="4" branch="false" />
+            <line number="15" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="MusicPlayer.PlayCommand" filename="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/src/MusicPlayer/PlayCommand.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(MusicPlayer.MusicPlayer)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="5" branch="false" />
+                <line number="10" hits="5" branch="false" />
+                <line number="11" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="5" branch="false" />
+            <line number="10" hits="5" branch="false" />
+            <line number="11" hits="5" branch="false" />
+            <line number="15" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="MusicPlayer.SkipCommand" filename="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/src/MusicPlayer/SkipCommand.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Execute" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(MusicPlayer.MusicPlayer)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="false" />
+                <line number="10" hits="3" branch="false" />
+                <line number="11" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="false" />
+            <line number="10" hits="3" branch="false" />
+            <line number="11" hits="3" branch="false" />
+            <line number="15" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
