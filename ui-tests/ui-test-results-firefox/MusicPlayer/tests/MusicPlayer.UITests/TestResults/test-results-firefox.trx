@@ -1,50 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="deba6f1b-1ec1-4404-ae06-0cc3c84311ed" name="@runnervmf2e7y 2025-11-01 02:21:56" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-11-01T02:21:56.9227065+00:00" queuing="2025-11-01T02:21:56.9227065+00:00" start="2025-11-01T02:21:37.7925975+00:00" finish="2025-11-01T02:22:12.0005651+00:00" />
-  <TestSettings name="default" id="f216ad1a-0469-41fb-885c-0a30abdf70ea">
-    <Deployment runDeploymentRoot="_runnervmf2e7y_2025-11-01_02_21_56" />
+<TestRun id="85398b56-5e63-43dc-b355-f2842ac12fcc" name="@runnervmf2e7y 2025-11-01 02:29:20" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-11-01T02:29:20.6269539+00:00" queuing="2025-11-01T02:29:20.6269539+00:00" start="2025-11-01T02:29:05.2487651+00:00" finish="2025-11-01T02:29:35.6891658+00:00" />
+  <TestSettings name="default" id="98ba3629-235d-4a27-bee4-2c30f4cedce8">
+    <Deployment runDeploymentRoot="_runnervmf2e7y_2025-11-01_02_29_20" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="f4438c3e-e3b6-466b-9a89-30fc0ca5dfd3" testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" testName="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" computerName="runnervmf2e7y" duration="00:00:03.1779082" startTime="2025-11-01T02:22:11.9406863+00:00" endTime="2025-11-01T02:22:11.9406865+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4438c3e-e3b6-466b-9a89-30fc0ca5dfd3" />
-    <UnitTestResult executionId="c3112fb3-2890-45b1-8e20-ed075f424313" testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" testName="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" computerName="runnervmf2e7y" duration="00:00:02.7974577" startTime="2025-11-01T02:22:05.8536635+00:00" endTime="2025-11-01T02:22:05.8536637+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3112fb3-2890-45b1-8e20-ed075f424313" />
-    <UnitTestResult executionId="7622b0d8-7f36-4fe8-a179-293af6855507" testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" testName="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" computerName="runnervmf2e7y" duration="00:00:02.8840982" startTime="2025-11-01T02:22:03.0540251+00:00" endTime="2025-11-01T02:22:03.0540253+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7622b0d8-7f36-4fe8-a179-293af6855507" />
-    <UnitTestResult executionId="d8af3ce6-70d5-4152-abc9-39cd555d9e69" testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" testName="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" computerName="runnervmf2e7y" duration="00:00:02.9084237" startTime="2025-11-01T02:22:08.7623528+00:00" endTime="2025-11-01T02:22:08.7623530+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8af3ce6-70d5-4152-abc9-39cd555d9e69" />
-    <UnitTestResult executionId="76c2c251-af1c-421d-b1e3-612b95f57fc6" testId="7127932d-c6c2-614a-eee8-df13e9ddded6" testName="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" computerName="runnervmf2e7y" duration="00:00:03.2728313" startTime="2025-11-01T02:22:00.1698133+00:00" endTime="2025-11-01T02:22:00.1698135+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76c2c251-af1c-421d-b1e3-612b95f57fc6" />
-    <UnitTestResult executionId="4b90c685-e444-4fd9-83f8-77cbf74cbb2f" testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" testName="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" computerName="runnervmf2e7y" duration="00:00:17.7036723" startTime="2025-11-01T02:21:56.8969704+00:00" endTime="2025-11-01T02:21:56.8969901+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b90c685-e444-4fd9-83f8-77cbf74cbb2f" />
+    <UnitTestResult executionId="05f708e1-4eeb-45f2-9f83-c84c63a1de51" testId="7127932d-c6c2-614a-eee8-df13e9ddded6" testName="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" computerName="runnervmf2e7y" duration="00:00:03.1000028" startTime="2025-11-01T02:29:23.7022241+00:00" endTime="2025-11-01T02:29:23.7022244+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05f708e1-4eeb-45f2-9f83-c84c63a1de51" />
+    <UnitTestResult executionId="f3c25cf1-3f50-4711-a782-d728df87d53a" testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" testName="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" computerName="runnervmf2e7y" duration="00:00:14.4385962" startTime="2025-11-01T02:29:20.6023311+00:00" endTime="2025-11-01T02:29:20.6023507+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3c25cf1-3f50-4711-a782-d728df87d53a" />
+    <UnitTestResult executionId="ff9026cf-ec0c-4588-b486-9aa11c9f38ba" testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" testName="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" computerName="runnervmf2e7y" duration="00:00:03.0146799" startTime="2025-11-01T02:29:35.6299690+00:00" endTime="2025-11-01T02:29:35.6299692+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff9026cf-ec0c-4588-b486-9aa11c9f38ba" />
+    <UnitTestResult executionId="fdb682c8-9010-47f4-a34f-a2dcb910955a" testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" testName="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" computerName="runnervmf2e7y" duration="00:00:02.9974283" startTime="2025-11-01T02:29:29.6789174+00:00" endTime="2025-11-01T02:29:29.6789177+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdb682c8-9010-47f4-a34f-a2dcb910955a" />
+    <UnitTestResult executionId="8bcc7d0f-485f-4978-afdf-4f986c9e8d79" testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" testName="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" computerName="runnervmf2e7y" duration="00:00:02.9358386" startTime="2025-11-01T02:29:32.6150163+00:00" endTime="2025-11-01T02:29:32.6150165+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bcc7d0f-485f-4978-afdf-4f986c9e8d79" />
+    <UnitTestResult executionId="14e773ba-8adc-4716-8d54-969fed91bcb8" testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" testName="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" computerName="runnervmf2e7y" duration="00:00:02.9787916" startTime="2025-11-01T02:29:26.6811400+00:00" endTime="2025-11-01T02:29:26.6811403+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14e773ba-8adc-4716-8d54-969fed91bcb8" />
   </Results>
   <TestDefinitions>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="faf87593-0367-77a6-1b17-13cc4ebce1b5">
-      <Execution id="4b90c685-e444-4fd9-83f8-77cbf74cbb2f" />
+      <Execution id="f3c25cf1-3f50-4711-a782-d728df87d53a" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="HomePage_ShouldLoad_Successfully" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="f87d0ea6-fe43-5c94-ba1e-763c7e57e309">
-      <Execution id="d8af3ce6-70d5-4152-abc9-39cd555d9e69" />
+      <Execution id="8bcc7d0f-485f-4978-afdf-4f986c9e8d79" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="PauseButton_WhenClicked_ShouldShowPausingMessage" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587">
-      <Execution id="c3112fb3-2890-45b1-8e20-ed075f424313" />
+      <Execution id="fdb682c8-9010-47f4-a34f-a2dcb910955a" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="AllButtons_ShouldBeVisible_AndClickable" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="7127932d-c6c2-614a-eee8-df13e9ddded6">
-      <Execution id="76c2c251-af1c-421d-b1e3-612b95f57fc6" />
+      <Execution id="05f708e1-4eeb-45f2-9f83-c84c63a1de51" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="PlayButton_WhenClicked_ShouldShowPlayingMessage" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="96f8ec32-1fae-a343-d76f-36f72c55ff37">
-      <Execution id="f4438c3e-e3b6-466b-9a89-30fc0ca5dfd3" />
+      <Execution id="ff9026cf-ec0c-4588-b486-9aa11c9f38ba" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="MultipleCommands_ShouldExecute_Sequentially" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17">
-      <Execution id="7622b0d8-7f36-4fe8-a179-293af6855507" />
+      <Execution id="14e773ba-8adc-4716-8d54-969fed91bcb8" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="SkipButton_WhenClicked_ShouldShowSkippingMessage" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" executionId="f4438c3e-e3b6-466b-9a89-30fc0ca5dfd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" executionId="c3112fb3-2890-45b1-8e20-ed075f424313" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" executionId="7622b0d8-7f36-4fe8-a179-293af6855507" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" executionId="d8af3ce6-70d5-4152-abc9-39cd555d9e69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="7127932d-c6c2-614a-eee8-df13e9ddded6" executionId="76c2c251-af1c-421d-b1e3-612b95f57fc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" executionId="4b90c685-e444-4fd9-83f8-77cbf74cbb2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7127932d-c6c2-614a-eee8-df13e9ddded6" executionId="05f708e1-4eeb-45f2-9f83-c84c63a1de51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" executionId="f3c25cf1-3f50-4711-a782-d728df87d53a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" executionId="ff9026cf-ec0c-4588-b486-9aa11c9f38ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" executionId="fdb682c8-9010-47f4-a34f-a2dcb910955a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" executionId="8bcc7d0f-485f-4978-afdf-4f986c9e8d79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" executionId="14e773ba-8adc-4716-8d54-969fed91bcb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -54,57 +54,54 @@
     <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.4.1+b9eacec401 (64-bit .NET 8.0.21)
-[xUnit.net 00:00:00.24]   Discovering: MusicPlayer.UITests
-[xUnit.net 00:00:00.31]   Discovered:  MusicPlayer.UITests
-[xUnit.net 00:00:00.32]   Starting:    MusicPlayer.UITests
-1761963702676	geckodriver	INFO	Listening on 127.0.0.1:33983
-1761963703001	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilegGC9Kz"
+[xUnit.net 00:00:00.18]   Discovering: MusicPlayer.UITests
+[xUnit.net 00:00:00.23]   Discovered:  MusicPlayer.UITests
+[xUnit.net 00:00:00.24]   Starting:    MusicPlayer.UITests
+1761964147700	geckodriver	INFO	Listening on 127.0.0.1:43073
+1761964147863	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileMyfr0D"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 [GFX1-]: glxtest: libEGL missing
-1761963709101	Marionette	INFO	Marionette enabled
-1761963710197	Marionette	INFO	Listening on port 37379
-Read port: 37379
+1761964153244	Marionette	INFO	Marionette enabled
+1761964154541	Marionette	INFO	Listening on port 44555
+Read port: 44555
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-1761963715433	Marionette	INFO	Stopped listening on port 37379
+1761964159463	Marionette	INFO	Stopped listening on port 44555
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
 console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
-1761963716941	geckodriver	INFO	Listening on 127.0.0.1:45057
-1761963716944	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile4pSgUt"
+1761964160643	geckodriver	INFO	Listening on 127.0.0.1:34183
+Connection refused (localhost:34183)
+1761964160660	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileT15sIP"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 [GFX1-]: glxtest: libEGL missing
-1761963717230	Marionette	INFO	Marionette enabled
-1761963717326	Marionette	INFO	Listening on port 42423
-Read port: 42423
+1761964160975	Marionette	INFO	Marionette enabled
+1761964161076	Marionette	INFO	Listening on port 40361
+Read port: 40361
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-1761963719336	Marionette	INFO	Stopped listening on port 42423
+1761964162778	Marionette	INFO	Stopped listening on port 40361
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
 console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
-1761963720214	geckodriver	INFO	Listening on 127.0.0.1:42757
-Connection refused (localhost:42757)
-1761963720250	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileevssfT"
+1761964163740	geckodriver	INFO	Listening on 127.0.0.1:35077
+Connection refused (localhost:35077)
+1761964163744	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepZ7aDU"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 [GFX1-]: glxtest: libEGL missing
-1761963720533	Marionette	INFO	Marionette enabled
-1761963720621	Marionette	INFO	Listening on port 34971
-Read port: 34971
+1761964164039	Marionette	INFO	Marionette enabled
+1761964164135	Marionette	INFO	Listening on port 35151
+Read port: 35151
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-1761963722235	Marionette	INFO	Stopped listening on port 34971
-console.error: services.settings: 
-  main/remote-permissions: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
-console.error: services.settings: 
-  main/search-categorization: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+1761964165760	Marionette	INFO	Stopped listening on port 35151
 console.error: services.settings: 
   main/third-party-cookie-blocking-exempt-urls: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
 console.error: services.settings: 
@@ -137,49 +134,43 @@ Object
     - result = 2152071198
     - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
   - prototype Object
-console.error: services.settings: 
-Object
-  - prototype Object
-    - columnNumber = 0
-    - data = null
-    - filename = resource://gre/modules/ServiceRequest.sys.mjs
-    - lineNumber = 126
-    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
-    - message = 
-    - name = 
-    - result = 2152071198
-    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
-  - prototype Object
-console.error: services.settings: 
-Object
-  - prototype Object
-    - columnNumber = 0
-    - data = null
-    - filename = resource://gre/modules/ServiceRequest.sys.mjs
-    - lineNumber = 126
-    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
-    - message = 
-    - name = 
-    - result = 2152071198
-    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
-  - prototype Object
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: SearchTelemetry: (new TypeError("can't access property \"empty\", this[#store] is null", "moz-src:///browser/components/search/SERPCategorization.sys.mjs", 951))
 console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
-1761963723094	geckodriver	INFO	Listening on 127.0.0.1:35413
-Connection refused (localhost:35413)
-1761963723098	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiles5aqgZ"
+1761964166721	geckodriver	INFO	Listening on 127.0.0.1:35269
+1761964166725	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilef6vXW0"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 [GFX1-]: glxtest: libEGL missing
-1761963723375	Marionette	INFO	Marionette enabled
-1761963723466	Marionette	INFO	Listening on port 41633
-Read port: 41633
+1761964167020	Marionette	INFO	Marionette enabled
+1761964167112	Marionette	INFO	Listening on port 38755
+Read port: 38755
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-1761963725044	Marionette	INFO	Stopped listening on port 41633
+1761964168753	Marionette	INFO	Stopped listening on port 38755
+console.error: services.settings: 
+  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: SearchTelemetry: (new TypeError("can't access property \"empty\", this[#store] is null", "moz-src:///browser/components/search/SERPCategorization.sys.mjs", 951))
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+1761964169725	geckodriver	INFO	Listening on 127.0.0.1:33177
+Connection refused (localhost:33177)
+1761964169730	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqnSICp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libEGL missing
+1761964169999	Marionette	INFO	Marionette enabled
+1761964170094	Marionette	INFO	Listening on port 38063
+Read port: 38063
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1761964171705	Marionette	INFO	Stopped listening on port 38063
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
 console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
@@ -250,74 +241,24 @@ Object
 console.error: (new Error("Phase \"profile-change-teardown\" is finished, it is too late to register completion condition \"ProfilesDatastoreService uninit\"", "resource://gre/modules/AsyncShutdown.sys.mjs", 718))
 console.error: NimbusMigrations: 
   applyMigrations: error running migration 2 (import-enrollments-to-sql): TypeError: can't access property "executeTransaction", conn is null
-1761963725898	geckodriver	INFO	Listening on 127.0.0.1:36775
-Connection refused (localhost:36775)
-1761963725902	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileO5Nw84"
+1761964172655	geckodriver	INFO	Listening on 127.0.0.1:36047
+Connection refused (localhost:36047)
+1761964172662	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileY7OPDi"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 [GFX1-]: glxtest: libEGL missing
-1761963726161	Marionette	INFO	Marionette enabled
-1761963726277	Marionette	INFO	Listening on port 42049
-Read port: 42049
+1761964172945	Marionette	INFO	Marionette enabled
+1761964173038	Marionette	INFO	Listening on port 41295
+Read port: 41295
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-1761963727939	Marionette	INFO	Stopped listening on port 42049
-console.error: services.settings: 
-  main/third-party-cookie-blocking-exempt-urls: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
-console.error: services.settings: 
-  main/query-stripping: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
-console.error: services.settings: 
-  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
-console.error: services.settings: 
-Object
-  - prototype Object
-    - columnNumber = 0
-    - data = null
-    - filename = resource://gre/modules/ServiceRequest.sys.mjs
-    - lineNumber = 126
-    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
-    - message = 
-    - name = 
-    - result = 2152071198
-    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
-  - prototype Object
-console.error: services.settings: 
-Object
-  - prototype Object
-    - columnNumber = 0
-    - data = null
-    - filename = resource://gre/modules/ServiceRequest.sys.mjs
-    - lineNumber = 126
-    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
-    - message = 
-    - name = 
-    - result = 2152071198
-    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
-  - prototype Object
-console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
-console.error: SearchTelemetry: (new TypeError("can't access property \"empty\", this[#store] is null", "moz-src:///browser/components/search/SERPCategorization.sys.mjs", 951))
-console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
-console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
-console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
-JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
-1761963728802	geckodriver	INFO	Listening on 127.0.0.1:32929
-Connection refused (localhost:32929)
-1761963728806	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile1nRifF"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-[GFX1-]: glxtest: libEGL missing
-1761963729081	Marionette	INFO	Marionette enabled
-1761963729169	Marionette	INFO	Listening on port 38855
-Read port: 38855
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-1761963731005	Marionette	INFO	Stopped listening on port 38855
+1761964174821	Marionette	INFO	Stopped listening on port 41295
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
 console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
-[xUnit.net 00:00:33.11]   Finished:    MusicPlayer.UITests
+[xUnit.net 00:00:29.77]   Finished:    MusicPlayer.UITests
 </StdOut>
     </Output>
   </ResultSummary>
