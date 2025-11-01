@@ -1,50 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="dd964e1b-fab7-45b1-98d9-b9ce0afeea25" name="@runnervmf2e7y 2025-11-01 02:28:10" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-11-01T02:28:10.6264620+00:00" queuing="2025-11-01T02:28:10.6264620+00:00" start="2025-11-01T02:28:06.7380787+00:00" finish="2025-11-01T02:28:13.8863600+00:00" />
-  <TestSettings name="default" id="830f8fdb-984f-4429-b7cf-edeeffb76543">
-    <Deployment runDeploymentRoot="_runnervmf2e7y_2025-11-01_02_28_10" />
+<TestRun id="d5d121fa-5bb8-4a75-a090-3e481d57e1bb" name="@runnervmf2e7y 2025-11-01 02:33:09" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-11-01T02:33:09.2774628+00:00" queuing="2025-11-01T02:33:09.2774629+00:00" start="2025-11-01T02:33:00.7954997+00:00" finish="2025-11-01T02:33:12.6871464+00:00" />
+  <TestSettings name="default" id="9d177707-7c81-41fd-8e4a-5031e2bfeb1b">
+    <Deployment runDeploymentRoot="_runnervmf2e7y_2025-11-01_02_33_09" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="0c93e2e7-3afe-40d4-87b7-ebb8c1eadcd9" testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" testName="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" computerName="runnervmf2e7y" duration="00:00:00.7286675" startTime="2025-11-01T02:28:13.8147072+00:00" endTime="2025-11-01T02:28:13.8147075+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c93e2e7-3afe-40d4-87b7-ebb8c1eadcd9" />
-    <UnitTestResult executionId="a0212619-705a-4c2c-9b88-3fade6b7e8ab" testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" testName="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" computerName="runnervmf2e7y" duration="00:00:00.5816668" startTime="2025-11-01T02:28:13.0858185+00:00" endTime="2025-11-01T02:28:13.0858187+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0212619-705a-4c2c-9b88-3fade6b7e8ab" />
-    <UnitTestResult executionId="3e83819e-c154-480a-a374-022a640e898d" testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" testName="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" computerName="runnervmf2e7y" duration="00:00:02.5611327" startTime="2025-11-01T02:28:10.5748441+00:00" endTime="2025-11-01T02:28:10.5748683+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e83819e-c154-480a-a374-022a640e898d" />
-    <UnitTestResult executionId="a60332c0-3bf0-4354-8771-977de9fdf281" testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" testName="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" computerName="runnervmf2e7y" duration="00:00:00.4846237" startTime="2025-11-01T02:28:12.5039727+00:00" endTime="2025-11-01T02:28:12.5039731+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a60332c0-3bf0-4354-8771-977de9fdf281" />
-    <UnitTestResult executionId="f9a745c7-f473-4cfe-8ed1-c178f4740d88" testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" testName="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" computerName="runnervmf2e7y" duration="00:00:00.5587820" startTime="2025-11-01T02:28:12.0190758+00:00" endTime="2025-11-01T02:28:12.0190761+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9a745c7-f473-4cfe-8ed1-c178f4740d88" />
-    <UnitTestResult executionId="d0852f33-d654-46de-8e72-fffa11f6d629" testId="7127932d-c6c2-614a-eee8-df13e9ddded6" testName="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" computerName="runnervmf2e7y" duration="00:00:00.8858624" startTime="2025-11-01T02:28:11.4601534+00:00" endTime="2025-11-01T02:28:11.4601537+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0852f33-d654-46de-8e72-fffa11f6d629" />
+    <UnitTestResult executionId="5d5e1b08-5e8c-4c1a-b873-54022f02383a" testId="7127932d-c6c2-614a-eee8-df13e9ddded6" testName="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" computerName="runnervmf2e7y" duration="00:00:00.8040633" startTime="2025-11-01T02:33:10.0529037+00:00" endTime="2025-11-01T02:33:10.0529038+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d5e1b08-5e8c-4c1a-b873-54022f02383a" />
+    <UnitTestResult executionId="5787267c-448d-4220-8939-38efd47125aa" testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" testName="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" computerName="runnervmf2e7y" duration="00:00:07.3374039" startTime="2025-11-01T02:33:09.2490073+00:00" endTime="2025-11-01T02:33:09.2490279+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5787267c-448d-4220-8939-38efd47125aa" />
+    <UnitTestResult executionId="1c2b96ef-87bb-471d-b568-8058823eb9fa" testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" testName="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" computerName="runnervmf2e7y" duration="00:00:00.6444951" startTime="2025-11-01T02:33:11.8373936+00:00" endTime="2025-11-01T02:33:11.8373938+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c2b96ef-87bb-471d-b568-8058823eb9fa" />
+    <UnitTestResult executionId="3893c104-566c-40ef-b61b-0da368526d7c" testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" testName="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" computerName="runnervmf2e7y" duration="00:00:00.5499822" startTime="2025-11-01T02:33:11.1926644+00:00" endTime="2025-11-01T02:33:11.1926646+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3893c104-566c-40ef-b61b-0da368526d7c" />
+    <UnitTestResult executionId="a14ea0f8-707b-4019-ad63-ed0f71517ecb" testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" testName="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" computerName="runnervmf2e7y" duration="00:00:00.7792823" startTime="2025-11-01T02:33:12.6169240+00:00" endTime="2025-11-01T02:33:12.6169241+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a14ea0f8-707b-4019-ad63-ed0f71517ecb" />
+    <UnitTestResult executionId="12a6354b-ae1a-4c73-8248-2ccb0c6835bb" testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" testName="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" computerName="runnervmf2e7y" duration="00:00:00.5894128" startTime="2025-11-01T02:33:10.6424717+00:00" endTime="2025-11-01T02:33:10.6424719+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12a6354b-ae1a-4c73-8248-2ccb0c6835bb" />
   </Results>
   <TestDefinitions>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="faf87593-0367-77a6-1b17-13cc4ebce1b5">
-      <Execution id="3e83819e-c154-480a-a374-022a640e898d" />
+      <Execution id="5787267c-448d-4220-8939-38efd47125aa" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="HomePage_ShouldLoad_Successfully" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="f87d0ea6-fe43-5c94-ba1e-763c7e57e309">
-      <Execution id="a0212619-705a-4c2c-9b88-3fade6b7e8ab" />
+      <Execution id="1c2b96ef-87bb-471d-b568-8058823eb9fa" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="PauseButton_WhenClicked_ShouldShowPausingMessage" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587">
-      <Execution id="a60332c0-3bf0-4354-8771-977de9fdf281" />
+      <Execution id="3893c104-566c-40ef-b61b-0da368526d7c" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="AllButtons_ShouldBeVisible_AndClickable" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="7127932d-c6c2-614a-eee8-df13e9ddded6">
-      <Execution id="d0852f33-d654-46de-8e72-fffa11f6d629" />
+      <Execution id="5d5e1b08-5e8c-4c1a-b873-54022f02383a" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="PlayButton_WhenClicked_ShouldShowPlayingMessage" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="96f8ec32-1fae-a343-d76f-36f72c55ff37">
-      <Execution id="0c93e2e7-3afe-40d4-87b7-ebb8c1eadcd9" />
+      <Execution id="a14ea0f8-707b-4019-ad63-ed0f71517ecb" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="MultipleCommands_ShouldExecute_Sequentially" />
     </UnitTest>
     <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/musicplayer/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17">
-      <Execution id="f9a745c7-f473-4cfe-8ed1-c178f4740d88" />
+      <Execution id="12a6354b-ae1a-4c73-8248-2ccb0c6835bb" />
       <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/MusicPlayer/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="SkipButton_WhenClicked_ShouldShowSkippingMessage" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" executionId="0c93e2e7-3afe-40d4-87b7-ebb8c1eadcd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" executionId="a0212619-705a-4c2c-9b88-3fade6b7e8ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" executionId="3e83819e-c154-480a-a374-022a640e898d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" executionId="a60332c0-3bf0-4354-8771-977de9fdf281" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" executionId="f9a745c7-f473-4cfe-8ed1-c178f4740d88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="7127932d-c6c2-614a-eee8-df13e9ddded6" executionId="d0852f33-d654-46de-8e72-fffa11f6d629" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7127932d-c6c2-614a-eee8-df13e9ddded6" executionId="5d5e1b08-5e8c-4c1a-b873-54022f02383a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" executionId="5787267c-448d-4220-8939-38efd47125aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" executionId="1c2b96ef-87bb-471d-b568-8058823eb9fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" executionId="3893c104-566c-40ef-b61b-0da368526d7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" executionId="a14ea0f8-707b-4019-ad63-ed0f71517ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" executionId="12a6354b-ae1a-4c73-8248-2ccb0c6835bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -54,289 +54,250 @@
     <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.4.1+b9eacec401 (64-bit .NET 8.0.21)
-[xUnit.net 00:00:00.24]   Discovering: MusicPlayer.UITests
-[xUnit.net 00:00:00.29]   Discovered:  MusicPlayer.UITests
-[xUnit.net 00:00:00.30]   Starting:    MusicPlayer.UITests
-Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 35737
+[xUnit.net 00:00:00.18]   Discovering: MusicPlayer.UITests
+[xUnit.net 00:00:00.25]   Discovered:  MusicPlayer.UITests
+[xUnit.net 00:00:00.26]   Starting:    MusicPlayer.UITests
+Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 34857
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-Connection refused (localhost:35737)
-ChromeDriver was started successfully on port 35737.
-Connection refused (localhost:35737)
-Connection refused (localhost:43979)
-Connection refused (localhost:43979)
-Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 43979
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+Connection refused (localhost:34857)
+ChromeDriver was started successfully on port 34857.
+Connection refused (localhost:34857)
+Connection refused (localhost:41415)
+Connection refused (localhost:41415)
+Connection refused (localhost:41415)
+Connection refused (localhost:41415)
+Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 41415
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Connection refused (localhost:43979)
-Connection refused (localhost:43979)
-Connection refused (localhost:43979)
-ChromeDriver was started successfully on port 43979.
-Connection refused (localhost:43979)
-Connection refused (localhost:45149)
-Connection refused (localhost:45149)
-Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 45149
+Connection refused (localhost:41415)
+Connection refused (localhost:41415)
+Connection refused (localhost:41415)
+Connection refused (localhost:41415)
+Connection refused (localhost:41415)
+ChromeDriver was started successfully on port 41415.
+Connection refused (localhost:43299)
+Connection refused (localhost:43299)
+Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 43299
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Connection refused (localhost:45149)
-Connection refused (localhost:45149)
-Connection refused (localhost:45149)
-Connection refused (localhost:45149)
-Connection refused (localhost:45149)
-ChromeDriver was started successfully on port 45149.
-Connection refused (localhost:45149)
-Connection refused (localhost:35921)
-Connection refused (localhost:35921)
-Connection refused (localhost:35921)
-Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 35921
+Connection refused (localhost:43299)
+Connection refused (localhost:43299)
+Connection refused (localhost:43299)
+Connection refused (localhost:43299)
+ChromeDriver was started successfully on port 43299.
+Connection refused (localhost:37793)
+Connection refused (localhost:37793)
+Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 37793
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Connection refused (localhost:35921)
-Connection refused (localhost:35921)
-Connection refused (localhost:35921)
-ChromeDriver was started successfully on port 35921.
-Connection refused (localhost:35921)
-Connection refused (localhost:43473)
-Connection refused (localhost:43473)
-Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 43473
+Connection refused (localhost:37793)
+Connection refused (localhost:37793)
+Connection refused (localhost:37793)
+Connection refused (localhost:37793)
+ChromeDriver was started successfully on port 37793.
+Connection refused (localhost:44319)
+Connection refused (localhost:44319)
+Connection refused (localhost:44319)
+Connection refused (localhost:44319)
+Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 44319
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Connection refused (localhost:43473)
-Connection refused (localhost:43473)
-Connection refused (localhost:43473)
-Connection refused (localhost:43473)
-Connection refused (localhost:43473)
-Connection refused (localhost:43473)
-ChromeDriver was started successfully on port 43473.
-Connection refused (localhost:43473)
-Connection refused (localhost:45147)
-Connection refused (localhost:45147)
-Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 45147
+Connection refused (localhost:44319)
+Connection refused (localhost:44319)
+Connection refused (localhost:44319)
+ChromeDriver was started successfully on port 44319.
+Connection refused (localhost:44319)
+Connection refused (localhost:45239)
+Starting ChromeDriver 142.0.7444.59 (4b8153ab58d3c3f4c9f7e4baad9616ecf80db5fa-refs/branch-heads/7444_52@{#4}) on port 45239
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Connection refused (localhost:45147)
-Connection refused (localhost:45147)
-Connection refused (localhost:45147)
-Connection refused (localhost:45147)
-Connection refused (localhost:45147)
-ChromeDriver was started successfully on port 45147.
-Connection refused (localhost:45147)
-[xUnit.net 00:00:06.14]   Finished:    MusicPlayer.UITests
+ChromeDriver was started successfully on port 45239.
+Connection refused (localhost:45239)
+[xUnit.net 00:00:11.01]   Finished:    MusicPlayer.UITests
 </StdOut>
     </Output>
   </ResultSummary>
