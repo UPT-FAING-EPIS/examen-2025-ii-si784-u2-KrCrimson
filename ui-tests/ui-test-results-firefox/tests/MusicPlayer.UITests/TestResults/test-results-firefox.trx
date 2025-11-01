@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="630bdd38-5d18-459c-8cf3-dc6238c22a65" name="@runnervmf2e7y 2025-11-01 01:54:18" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-11-01T01:54:18.6883677+00:00" queuing="2025-11-01T01:54:18.6883678+00:00" start="2025-11-01T01:53:56.8412723+00:00" finish="2025-11-01T01:54:34.3398027+00:00" />
+  <TestSettings name="default" id="e5f44789-de75-45ff-b5a9-6d2faf648b6f">
+    <Deployment runDeploymentRoot="_runnervmf2e7y_2025-11-01_01_54_18" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="06db7c96-a9f0-443b-b25b-c5e2bbd88122" testId="7127932d-c6c2-614a-eee8-df13e9ddded6" testName="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" computerName="runnervmf2e7y" duration="00:00:03.1864711" startTime="2025-11-01T01:54:21.8505352+00:00" endTime="2025-11-01T01:54:21.8505355+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06db7c96-a9f0-443b-b25b-c5e2bbd88122" />
+    <UnitTestResult executionId="af9ff7af-bdd7-46cc-a292-8fe61a5bc416" testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" testName="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" computerName="runnervmf2e7y" duration="00:00:03.0930525" startTime="2025-11-01T01:54:24.9438232+00:00" endTime="2025-11-01T01:54:24.9438234+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af9ff7af-bdd7-46cc-a292-8fe61a5bc416" />
+    <UnitTestResult executionId="08c96cb3-d22e-4a4b-b6e9-bcb9d1221ebb" testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" testName="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" computerName="runnervmf2e7y" duration="00:00:02.9706248" startTime="2025-11-01T01:54:30.9725426+00:00" endTime="2025-11-01T01:54:30.9725428+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08c96cb3-d22e-4a4b-b6e9-bcb9d1221ebb" />
+    <UnitTestResult executionId="c4d27eb7-b979-4b3e-a912-b4695099547a" testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" testName="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" computerName="runnervmf2e7y" duration="00:00:20.2156011" startTime="2025-11-01T01:54:18.6640498+00:00" endTime="2025-11-01T01:54:18.6640760+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4d27eb7-b979-4b3e-a912-b4695099547a" />
+    <UnitTestResult executionId="611403a7-d33b-4b8b-b680-f0117113839b" testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" testName="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" computerName="runnervmf2e7y" duration="00:00:03.3068822" startTime="2025-11-01T01:54:34.2796178+00:00" endTime="2025-11-01T01:54:34.2796181+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="611403a7-d33b-4b8b-b680-f0117113839b" />
+    <UnitTestResult executionId="5ec10554-8c67-4b06-8a1b-65d7b191224a" testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" testName="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" computerName="runnervmf2e7y" duration="00:00:03.0572092" startTime="2025-11-01T01:54:28.0013421+00:00" endTime="2025-11-01T01:54:28.0013423+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ec10554-8c67-4b06-8a1b-65d7b191224a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.HomePage_ShouldLoad_Successfully" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="faf87593-0367-77a6-1b17-13cc4ebce1b5">
+      <Execution id="c4d27eb7-b979-4b3e-a912-b4695099547a" />
+      <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="HomePage_ShouldLoad_Successfully" />
+    </UnitTest>
+    <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.PauseButton_WhenClicked_ShouldShowPausingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="f87d0ea6-fe43-5c94-ba1e-763c7e57e309">
+      <Execution id="08c96cb3-d22e-4a4b-b6e9-bcb9d1221ebb" />
+      <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="PauseButton_WhenClicked_ShouldShowPausingMessage" />
+    </UnitTest>
+    <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.AllButtons_ShouldBeVisible_AndClickable" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587">
+      <Execution id="5ec10554-8c67-4b06-8a1b-65d7b191224a" />
+      <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="AllButtons_ShouldBeVisible_AndClickable" />
+    </UnitTest>
+    <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.PlayButton_WhenClicked_ShouldShowPlayingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="7127932d-c6c2-614a-eee8-df13e9ddded6">
+      <Execution id="06db7c96-a9f0-443b-b25b-c5e2bbd88122" />
+      <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="PlayButton_WhenClicked_ShouldShowPlayingMessage" />
+    </UnitTest>
+    <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.MultipleCommands_ShouldExecute_Sequentially" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="96f8ec32-1fae-a343-d76f-36f72c55ff37">
+      <Execution id="611403a7-d33b-4b8b-b680-f0117113839b" />
+      <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="MultipleCommands_ShouldExecute_Sequentially" />
+    </UnitTest>
+    <UnitTest name="MusicPlayer.UITests.MusicPlayerUITests.SkipButton_WhenClicked_ShouldShowSkippingMessage" storage="/home/runner/work/examen-2025-ii-si784-u2-krcrimson/examen-2025-ii-si784-u2-krcrimson/tests/musicplayer.uitests/bin/release/net8.0/musicplayer.uitests.dll" id="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17">
+      <Execution id="af9ff7af-bdd7-46cc-a292-8fe61a5bc416" />
+      <TestMethod codeBase="/home/runner/work/examen-2025-ii-si784-u2-KrCrimson/examen-2025-ii-si784-u2-KrCrimson/tests/MusicPlayer.UITests/bin/Release/net8.0/MusicPlayer.UITests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="MusicPlayer.UITests.MusicPlayerUITests" name="SkipButton_WhenClicked_ShouldShowSkippingMessage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7127932d-c6c2-614a-eee8-df13e9ddded6" executionId="06db7c96-a9f0-443b-b25b-c5e2bbd88122" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ab3ecc9-89c0-74c7-6fa6-63ff3a997f17" executionId="af9ff7af-bdd7-46cc-a292-8fe61a5bc416" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f87d0ea6-fe43-5c94-ba1e-763c7e57e309" executionId="08c96cb3-d22e-4a4b-b6e9-bcb9d1221ebb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faf87593-0367-77a6-1b17-13cc4ebce1b5" executionId="c4d27eb7-b979-4b3e-a912-b4695099547a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96f8ec32-1fae-a343-d76f-36f72c55ff37" executionId="611403a7-d33b-4b8b-b680-f0117113839b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ac12fdd-fdca-acdc-91b4-2ec9dfae4587" executionId="5ec10554-8c67-4b06-8a1b-65d7b191224a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.4.1+b9eacec401 (64-bit .NET 8.0.21)
+[xUnit.net 00:00:00.23]   Discovering: MusicPlayer.UITests
+[xUnit.net 00:00:00.30]   Discovered:  MusicPlayer.UITests
+[xUnit.net 00:00:00.31]   Starting:    MusicPlayer.UITests
+1761962039813	geckodriver	INFO	Listening on 127.0.0.1:34953
+1761962040125	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileU9MGv7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libEGL missing
+1761962049092	Marionette	INFO	Marionette enabled
+1761962050958	Marionette	INFO	Listening on port 42395
+Read port: 42395
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1761962057011	Marionette	INFO	Stopped listening on port 42395
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+1761962058709	geckodriver	INFO	Listening on 127.0.0.1:46535
+1761962058713	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqmaysJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libEGL missing
+1761962059037	Marionette	INFO	Marionette enabled
+1761962059131	Marionette	INFO	Listening on port 42981
+Read port: 42981
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1761962060923	Marionette	INFO	Stopped listening on port 42981
+console.error: SearchTelemetry: (new TypeError("can't access property \"empty\", this[#store] is null", "moz-src:///browser/components/search/SERPCategorization.sys.mjs", 951))
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+1761962061894	geckodriver	INFO	Listening on 127.0.0.1:41429
+Connection refused (localhost:41429)
+1761962061928	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilem4uLBr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libEGL missing
+1761962062231	Marionette	INFO	Marionette enabled
+1761962062325	Marionette	INFO	Listening on port 35771
+Read port: 35771
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1761962064009	Marionette	INFO	Stopped listening on port 35771
+console.error: services.settings: 
+  main/cfr: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/newtab-wallpapers-v2: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/normandy-recipes-capabilities: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/remote-permissions: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/search-categorization: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/third-party-cookie-blocking-exempt-urls: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/query-stripping: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+1761962064988	geckodriver	INFO	Listening on 127.0.0.1:38177
+Connection refused (localhost:38177)
+1761962064992	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiledr0LAF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libEGL missing
+1761962065292	Marionette	INFO	Marionette enabled
+1761962065391	Marionette	INFO	Listening on port 45877
+Read port: 45877
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1761962067070	Marionette	INFO	Stopped listening on port 45877
+console.error: services.settings: 
+  main/remote-permissions: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/search-categorization: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/third-party-cookie-blocking-exempt-urls: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/query-stripping: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+1761962068043	geckodriver	INFO	Listening on 127.0.0.1:45891
+Connection refused (localhost:45891)
+1761962068047	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiletvuq2J"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libEGL missing
+1761962068323	Marionette	INFO	Marionette enabled
+1761962068416	Marionette	INFO	Listening on port 43683
+Read port: 43683
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1761962070059	Marionette	INFO	Stopped listening on port 43683
+console.error: services.settings: 
+  main/remote-permissions: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/search-categorization: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/third-party-cookie-blocking-exempt-urls: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/query-stripping: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+  main/doh-providers: Signature of bundled changeset is invalid: [Exception... "&lt;no message&gt;"  nsresult: "0x8046001e (&lt;unknown&gt;)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no].
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/&lt;","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":24,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":22,"lineNumber":658,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise&lt;","sourceId":22,"lineNumber":496,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42\nget/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/&lt;@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:658:42|get/this._importingPromise&lt;@resource://services-settings/RemoteSettingsClient.sys.mjs:496:28|
+  - prototype Object
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+1761962071015	geckodriver	INFO	Listening on 127.0.0.1:34693
+Connection refused (localhost:34693)
+1761962071019	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilemNAo4t"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libEGL missing
+1761962071310	Marionette	INFO	Marionette enabled
+1761962071410	Marionette	INFO	Listening on port 40941
+Read port: 40941
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1761962073397	Marionette	INFO	Stopped listening on port 40941
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.error: (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: (new Error("OHTTP was configured for https://ads.mozilla.org/v1/delete_user but we couldn't fetch a valid config", "moz-src:///browser/modules/ContextId.sys.mjs", 234))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/ObliviousHTTP.sys.mjs, line 117: NS_ERROR_XPC_CANT_CONVERT_PRIMITIVE_TO_ARRAY: Cannot convert primitive JavaScript value into an array arg 2 [nsIObliviousHttpService.newChannel]
+[xUnit.net 00:00:36.19]   Finished:    MusicPlayer.UITests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
