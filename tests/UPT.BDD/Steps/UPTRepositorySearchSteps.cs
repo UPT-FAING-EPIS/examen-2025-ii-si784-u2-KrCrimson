@@ -170,13 +170,24 @@ public class UPTRepositorySearchSteps : IDisposable
 
         var browser = Environment.GetEnvironmentVariable("BROWSER") ?? "chrome";
 
-        _driver = browser.ToLower() switch
+        if (browser.ToLower() == "firefox")
         {
-            "firefox" => new FirefoxDriver(),
-            _ => new ChromeDriver()
-        };
+            var firefoxOptions = new FirefoxOptions();
+            firefoxOptions.AddArgument("--headless");
+            firefoxOptions.AddArgument("--window-size=1920,1080");
+            _driver = new FirefoxDriver(firefoxOptions);
+        }
+        else
+        {
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddArgument("--headless=new");
+            chromeOptions.AddArgument("--no-sandbox");
+            chromeOptions.AddArgument("--disable-dev-shm-usage");
+            chromeOptions.AddArgument("--disable-gpu");
+            chromeOptions.AddArgument("--window-size=1920,1080");
+            _driver = new ChromeDriver(chromeOptions);
+        }
 
-        _driver.Manage().Window.Maximize();
         _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(15));
     }
